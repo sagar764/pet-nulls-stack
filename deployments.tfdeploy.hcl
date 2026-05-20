@@ -14,3 +14,10 @@ deployment "complex" {
     instances        = 3
   }
 }
+
+deployment "new-test" {
+  inputs = {
+    prefix           = "new-test"
+    instances        = 1
+  }
+}
